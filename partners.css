@@ -33,14 +33,7 @@ body {
     height: 30px;
     margin-bottom: 157px;
     margin-right: 35px;
-}
-.vector:hover {
-    background-image: url(images/Vector1.png);
-    width: 30px;
-    height: 30px;
-    margin-bottom: 157px;
-    margin-right: 35px;
-    animation: bounce 1.5s linear;
+    animation: bounce 1.5s infinite;
 }
 .desktop_only {
     position: relative; 
@@ -62,7 +55,7 @@ body {
 .bttns_p_or_i_input {
     display: none;
 }
-.bttns_p_or_i_input:checked + .bttn_p_or_i {
+.bttn_p_or_i:hover {
     background: #0536FC;
     color: #FFF;
 }
